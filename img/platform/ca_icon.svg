@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="38px" viewBox="0 0 20 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="49.9997188%" cy="50.0013803%" fx="49.9997188%" fy="50.0013803%" r="57.0475%" id="radialGradient-1">
+            <stop stop-color="#1CBCB4" offset="60%"></stop>
+            <stop stop-color="#00A651" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易计算器" transform="translate(-425.000000, -918.000000)">
+            <g id="编组-2" transform="translate(425.000000, 918.000000)">
+                <g id="Group" transform="translate(0.000000, 18.000000)">
+                    <path d="M20,9.96665181 C20,4.82957753 16.15,0.590487917 11.185,0.00353704745 C10.885,-0.0315796712 10.625,0.199187337 10.625,0.500187783 L10.625,5.85297905 C10.625,6.07872938 10.775,6.27437967 10.995,6.33457976 C12.585,6.7710304 13.75,8.23088257 13.75,9.96163513 C13.75,12.0385382 12.07,13.7241407 10,13.7241407 C7.93,13.7241407 6.25,12.0385382 6.25,9.96163513 C6.25,8.23088257 7.415,6.7710304 9.005,6.33457976 C9.225,6.27437967 9.375,6.07872938 9.375,5.85297905 L9.375,0.500187783 C9.375,0.199187337 9.11,-0.0315796712 8.815,0.00353704745 C3.85,0.590487917 0,4.82957753 0,9.96665181 C0,15.5100767 4.475,20 10,20 C15.525,20 20,15.5100767 20,9.96665181 Z" id="Shape" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+                    <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                </g>
+                <g id="箭头" transform="translate(10.000000, 6.500000) scale(1, -1) rotate(90.000000) translate(-10.000000, -6.500000) translate(4.000000, -2.000000)" fill="#0CA59E" fill-rule="nonzero">
+                    <polygon id="Shape" points="2.62858301 8.75192588 0.104168874 0.167576015 11.8690677 8.75192588 0.104168874 16.3899831"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

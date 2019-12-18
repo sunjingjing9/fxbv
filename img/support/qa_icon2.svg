@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="30px" viewBox="0 0 34 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>关于开户</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="常见问题" transform="translate(-539.000000, -656.000000)" stroke="#333333">
+            <g id="关于开户" transform="translate(540.000000, 656.000000)">
+                <g id="Group" transform="translate(12.000000, 8.000000)">
+                    <path d="M2.45,1.99 C2.45,3.07 3.06,4 4,4 C4.94,4 5.55,3.07 5.55,1.99 C5.55,0.91 5.24,0.29 4,0.29 C2.76,0.29 2.45,0.91 2.45,1.99 Z" id="Shape"></path>
+                    <path d="M3.07,3.7 L0.9,4.94 C0.9,4.94 0.9,5.05 0.9,5.56 C0.9,6.07 1.21,6.49 1.52,6.49 L6.47,6.49 C6.78,6.49 7.09,6.07 7.09,5.56 C7.09,5.05 7.09,4.94 7.09,4.94 L4.92,3.7" id="Shape"></path>
+                </g>
+                <circle id="Oval" cx="15" cy="12" r="6"></circle>
+                <g>
+                    <path d="M32,2.05 C32,1.19 31.31,0.5 30.45,0.5 L1.55,0.5 C0.7,0.5 0,1.2 0,2.05 L0,22.76 C0,23.62 0.69,24.31 1.55,24.31 L30.45,24.31 C31.3,24.31 32,23.61 32,22.76 L32,2.05 Z" id="Shape"></path>
+                    <path d="M19.1,24.32 L20.65,29.5" id="Shape"></path>
+                    <path d="M11.35,29.5 L12.9,24.32" id="Shape"></path>
+                    <path d="M9.29,29.5 L22.71,29.5" id="Shape"></path>
+                    <polygon id="Rectangle-path" points="2.06 2.57 29.93 2.57 29.93 20.18 2.06 20.18"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

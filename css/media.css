@@ -1,0 +1,300 @@
+@media all and (max-width: 1200px){
+    #banner{ background:url(../img/m/in/banner.png); background-size:cover; height:13.31rem;}
+    #banner .cont{flex-wrap:wrap;}
+    #banner .p1{color:#fff; font-weight:normal; border-bottom:.08rem solid #02a858; margin-bottom:.3rem; font-size:.7rem;}
+    #banner .p2{font-weight:normal; line-height:.8rem; font-size:.36rem;}
+    #banner .btna{margin:.2rem 0 0; width:4rem; line-height:.72rem; height:.72rem;}
+    #banner .cont .right{background:none;}
+    #banner .cont .right .right_pic1{height:6rem; position:absolute; right:-15px;top:0;}
+    #banner .cont .right .right_pic2{width:2.3rem; left:1.5rem; top:.2rem;}
+    .modular1{background-color:#fff; padding:.8rem 0 0;}
+    .modular1 .col-sm-12{margin:0; padding:0;}
+    .modular1 .table_top{align-items:center;}
+    .modular1 .table_nav>p{text-align:center;}
+    .modular1 .table_nav>p>span{font-size:14px;}
+    .modular1 .table_cont .table_nav>p>span{font-size:12px;}
+    .modular1 .table_cont .table_nav .sell{width:.7rem; height:.5rem; font-size:12px; line-height:.5rem; border-radius:2px;}
+    .modular1 .table_cont .table_nav .buy{width:.7rem; height:.5rem; font-size:12px; line-height:.5rem; border-radius:2px;}
+    .modular1 .table_top>p.active{background-color:#2dd288; color:#fff;}
+    .modular1 .btna2{width:4rem; height:.72rem;}
+    .modular1 .btna2>span{width:3.98rem; height:.68rem; line-height:.7rem;}
+    .modular2{padding:0; margin-bottom:3rem;}
+    .modular2 .title{font-size:.48rem; margin-bottom:.8rem; font-weight:normal;}
+    .modular2 .cont{display:flex; align-items:center; padding:0 10%;margin-bottom:.6rem;}
+    .modular2 .cont .left>img{width:.92rem;}
+    .modular2 .cont .right{text-align:left; margin-left:4%;}
+    .modular2 .cont .right .p1{font-size:.32rem; margin-top:0}
+    .modular2 .cont .right .p2{height:auto; font-size:.24rem;}
+    .modular3{background: url(../img/m/in/bg.png) no-repeat center; height:6rem; padding-top:0; background-size:cover;}
+    .modular3 .cont{flex-wrap:wrap;}
+    .modular3 .cont>img{width:5rem; margin-top:-2rem;}
+    .modular3 .cont .right{width:100%; margin-left:0; text-align:center; padding-top:.8rem;}
+    .modular3 .cont .right .p1{font-size:.48rem; font-weight:normal;}
+    .modular3 .cont .right .p2{font-size:.32rem; margin-bottom:.2rem;}
+    .modular4{background:0 none; height:auto; padding-bottom:.2rem;}
+    .modular4 .cont .right{text-align:center; margin-right:0;}
+    .modular4 .cont .right>img{width:5rem; margin:0 auto;}
+    .modular4 .right .btna{margin:.6rem auto; width:4rem; height:.72rem; line-height:.72rem;}
+    .modular5{background-color:#f6f6f6;}
+    .modular5 .right .p3{text-align:left;}
+    .modular5 .right .btna2{margin:.5rem auto; width:4rem; height:.72rem;}
+    .modular5 .right .btna2>span{width:3.98rem; height:.68rem; line-height:.68rem;}
+    .modular5 .cont>img{margin-top:0;}
+    .modular6{padding:1rem 0;}
+    .modular6 .title{font-weight:normal; font-size:.48rem;}
+    .modular6 .p1{font-size:.32rem;}
+    .modular6 .cont{padding:.6rem .4rem; justify-content:space-between;}
+    .modular6 .cont .cont_list{display:flex; align-items:center; height:.8rem; justify-content:center; border-radius:.1rem; width:31%;}
+    .modular6 .cont .cont_list .icon{margin:0; background-size:cover; height:.47rem; width:.4rem; margin-right:.1rem;}
+    .modular7{background-color:#fff; padding:0 0 .2rem;}
+    .modular7 .title{font-size:.48rem; font-weight:normal; margin-bottom:.4rem;}
+    .modular7 .cont{padding:0;}
+    .modular7 .cont>a{flex-wrap:wrap; border-bottom:1px dashed #8c8ea6; padding:.3rem 0 .2rem; margin-bottom:.1rem; height:auto;}
+    .modular7 .cont a>span{display:block; width:100%;}
+    .modular7 .cont a>.left{font-size:.32rem; color:#323232; margin-bottom:.2rem;}
+    .modular7 .btna2{ width:4rem; height:.72rem;}
+    .modular7 .btna2>span{width:3.98rem; height:.68rem; line-height:.68rem;}
+/*mt4 start*/
+    .banner{margin-top:49px;}
+    .banner .title{padding-top:1.5rem; font-size:.7rem; font-weight:normal;}
+    #platforms .banner{height:4.6rem; background:url(../img/m/mt4/banner.png) no-repeat; background-size:cover;}
+    #platforms .mt4_modular1 .p1{font-size:.48rem; text-align:center;}
+    #platforms .mt4_modular1 .cont{flex-wrap:wrap;}
+    #platforms .mt4_modular1 .left{width:100%}
+    #platforms .mt4_modular1 img{width:100%;}
+    #platforms .mt4_modular2{padding:0;}
+    #platforms .mt4_modular2 .p1{font-size:.48rem; text-align:center; margin-bottom:.2rem;}
+    #platforms .mt4_modular2 .p2{font-size:.32rem; text-align:center;}
+    #platforms .mt4_modular2 .cont{flex-wrap:wrap;}
+    #platforms .mt4_modular2 .cont_list{width:90%; margin-bottom:.5rem;}
+    #platforms .mt4_modular2 .cont_list .top{font-size:.32rem;}
+    #platforms .mt4_modular2 .cont_list .bottom{flex-wrap:wrap;}
+    #platforms .mt4_modular2 .cont_list .bottom .right{width:100%;}
+    #platforms .mt4_modular2 .cont_list .num{font-size:.32rem; font-weight:normal;}
+    #platforms .mt4_modular2 .cont2{padding:.2rem 0 .9rem;}
+    #platforms .mt4_modular3 .container{border:0 none;}
+    #platforms .mt4_modular3 .col-sm-12{padding:0;}
+    #platforms .mt4_modular3 ul{flex-wrap:wrap; padding-top:0;}
+    #platforms .mt4_modular3 ul>li{width:100%; border-right:0 none; padding:.4rem 0;}
+    #platforms .mt4_modular3 ul>li.li_1{background-color:#f6f6f6;}
+    #platforms .mt4_modular3 ul>li>img{width:1rem;}
+    #platforms .mt4_modular3 ul>li .p1{padding:.3rem 0 .2rem;}
+    #platforms .mt4_modular3 ul>li .p2{font-size:.28rem; padding:0 .3rem;}
+    #platforms .mt4_modular4 .cont{flex-wrap:wrap;}
+    #platforms .mt4_modular4{padding:0 0 .9rem;}
+    .mt4_modular4 .cont .left{width:100%; text-align:center;}
+    .mt4_modular4 .cont .left .p2{padding-bottom:.5rem;}
+    .mt4_modular4 .cont .right{justify-content:space-between;}
+    .mt4_modular4 .cont .right>a{width:32%; margin-left:0; background-color:#00a651; height:2.5rem; padding:1rem 0 0; border-radius:.1rem;}
+    .mt4_modular4 .cont .right>a>img{width:.5rem;}
+    .mt4_modular4 .cont .right>a>img.download{opacity:1; width:.24rem;}
+    .mt4_modular4 .cont .right .p3{padding-top:.2rem; font-size:.26rem;}
+/*mt4 end*/
+/*交易计算机 start*/
+    #platforms .calculator_banner{height:4.6rem; background:url(../img/m/mt4/calulator-banner.png) no-repeat; background-size:cover;}
+    .calculator{padding-bottom:.5rem;}
+    .calculator .top .p1{font-size:.48rem; font-weight:normal;}
+    .calculator .top .p2{margin:.3rem 0 .5rem;}
+    .calculator .bottom ul{margin-bottom:.6rem;}
+    .calculator .bottom .table1{flex-wrap:wrap;}
+    .calculator .bottom .table .left{width:100%; margin-bottom:.4rem;}
+    .calculator .bottom .table .left_list{margin-bottom:.2rem;}
+    .calculator .bottom .table .left_list>select{height:1rem;}
+    .calculator .bottom .table .right .title{font-size:.48rem; margin-bottom:.3rem;}
+    .calculator .bottom .table .right{padding:.4rem;}
+/*交易计算机 end*/
+/*std start*/
+    #forex .std_banner{height:4.6rem; background:url(../img/m/std/banner.png) no-repeat; background-size:cover;}
+    #forex .account{padding:0;}
+    #forex .account .col-sm-12{padding:0;}
+    #forex .account .p1{padding:0 .3rem; text-align:center;}
+    #forex .account .cont{width:100%; padding:0 .3rem .8rem; height:auto;}
+    #forex .account .cont .title{font-size:.48rem; padding:.7rem 0 .2rem; font-weight:normal;}
+    #forex .account .cont ul.ul_1>li{justify-content:space-between; padding:0 .5rem;}
+    #forex .account .cont ul.ul_1>li>span.left{padding-left:0; text-align:left;}
+    #forex .account .cont ul.ul_1>li>span{padding-left:0; text-align:right;}
+    #forex .account ul.ul_2{flex-wrap:wrap; padding-top:0; border:0 none;}
+    #forex .account ul.ul_2>li{width:100%; box-shadow:none; flex-wrap:wrap; text-align:center; padding:.4rem .3rem;}
+    #forex .account ul.ul_2>li.li_1{background-color:#f6f6f6;}
+    #forex .account ul.ul_2>li .right{padding-right:0;}
+    #forex .account ul.ul_2>li .right .p1{font-size:.32rem; font-weight:normal; padding-top:.3rem;}
+    #forex .account ul.ul_2>li>img{width:1rem; margin:0 auto;}
+/*std end*/
+/*交易产品-大宗商品 start*/
+    #forex .com_banner{height:4.6rem; background:url(../img/m/products/com_banner.png) no-repeat; background-size:cover;}
+    #forex .modular1 .col-sm-12{padding-left:15px;padding-right:15px;}
+    #forex .modular1 .cont1 .p1{font-size:.48rem; font-weight:normal;}
+    #forex .modular1 .cont1 .p2{margin-bottom:0}
+    #forex .modular1 .cont2 .p1{text-align:center;}
+    #forex .com_modular1 .content>li{width:100%; margin-bottom:.3rem;}
+    #forex .com_modular1 .content>li>img{width:1rem;}
+    #forex .modular1 .content .p3{font-size:.32rem;}
+    #forex .modular1 .cont3{width:100%;overflow-x:scroll; }
+    #forex .modular1 .cont3 .products_table{width:700px!important;}
+/*交易产品-大宗商品 end*/
+/*交易产品-forex start*/
+    #forex .banner{height:4.6rem; background:url(../img/m/products/forex_banner.png) no-repeat; background-size:cover;}
+    #forex .modular1 .content>li{width:100%; margin-bottom:.3rem;}
+    #forex .modular1 .content>li>img{width:1rem;}
+/*交易产品-forex end*/
+/*交易产品-贵金属 start*/
+    #forex .metal_banner{height:4.6rem; background:url(../img/m/products/metal_banner.png) no-repeat; background-size:cover;}
+/*交易产品-贵金属 end*/
+/*交易规则-杠杆和保证金 start*/
+    #trade .and-banner{height:4.6rem; background:url(../img/m/trade/&-banner.png) no-repeat; background-size:cover;}
+    #trade .trade_modular1 .title{font-size:.48rem; font-weight:normal; margin-bottom:.5rem; text-align:center;}
+    #trade .trade_modular1 .cont{width:100%; padding:0.3rem; margin:0 auto .8rem;}
+    #trade .trade_modular1 .cont_top{padding:.5rem; border-radius:.1rem;}
+/*交易规则-杠杆和保证金 end*/
+/*交易规则-合约细则 start*/
+    #trade .details-banner{height:4.6rem; background:url(../img/m/trade/details-banner.png) no-repeat; background-size:cover;}
+    #trade .datails_modular1 .title{font-size:.48rem; font-weight:normal;}
+    #trade .datails_modular1 .cont1{overflow-x:scroll;}
+    #trade .datails_modular1 .cont{width:1000px;}
+/*交易规则-合约细则 end*/
+/*交易规则-交易时间 start*/
+    #trade .time-banner{height:4.6rem; background:url(../img/m/trade/time-banner.png) no-repeat; background-size:cover;}
+    #trade .time_modular1 .cont{width:100%;}
+    .time_modular1 .cont .title{font-size:.48rem; font-weight:normal;}
+    .time_modular1 .cont ul{margin:.5rem 0 0; padding:0;}
+    .time_modular1 .cont ul>li{display:flex; padding:0 .1rem; justify-content:space-between;}
+    .time_modular1 .cont ul>li span{width:60%; font-size:14px;}
+    .time_modular1 .cont ul>li span.left{width:40%;}
+    .time_modular1 .cont ul>li .line{display:none;}
+    .time_modular1 .cont ul>li .title{width:100%; text-align:center; font-weight:normal; font-size:.38rem;}
+    .time_modular1 .cont1{padding:.5rem 0;}
+/*交易规则-交易时间 end*/
+/*客服支持-联系我们 start*/
+    #support .contact-banner{height:4.6rem; background:url(../img/m/support/contact_banner.png) no-repeat; background-size:cover;}
+    #support .contact{background:0 none; padding:.5rem 0;}
+    .contact .p1{color:#00a651; font-weight:normal;}
+    .contact .user>input{border:1px solid #b4b4b4; color:#00a651; background:0 none;}
+    .contact .user>p{color:#00a651;}
+    .contact .table .user>textarea{border:1px solid #b4b4b4; color:#00a651; background:0 none;}
+    .contact .table .contact_btn>a{background-color:#00a651; color:#fff;}
+/*客服支持-联系我们 end*/
+/*客服支持-常见问题 start*/
+    #support .qa-banner{height:4.6rem; background:url(../img/m/support/q&a-banner.png) no-repeat; background-size:cover;}
+    .qa-modular3 .cont_right_bottom>li .cont_icon{margin-right:1%;}
+    .qa-modular3 .cont_right_bottom>li .p1{font-size:18px;}
+    .qa-modular3 .cont_right_bottom>li .p2{font-size:14px;}
+/*客服支持-常见问题 end*/
+/*客服支持-词汇表 start*/
+    #support .glossary-banner{height:4.6rem; background:url(../img/m/support/glassary-banner.png) no-repeat; background-size:cover;}
+    .glossary .glossary_top .cont{flex-wrap:wrap; height:auto; justify-content:flex-start;}
+    .glossary .glossary_top .cont>a{width:10%; text-align:center; margin-bottom:.1rem;}
+    .glossary_bottom>li{padding:.5rem 0; flex-wrap:wrap;}
+    .glossary_bottom>li .left{width:100%; font-size:.7rem; text-align:center;}
+    .glossary_bottom>li .right{width:100%;}
+    .glossary_bottom>li .right_list{padding:.3rem 0;}
+    .glossary_bottom>li .right_list .p1{margin:0 .1rem;}
+    .glossary_bottom>li .right_list .p2{margin:0 .1rem; font-size:14px;}
+/*客服支持-词汇表 end*/
+/*客服支持-交易公告 start*/
+    #support .notice-banner{height:4.6rem; background:url(../img/m/support/notice-banner.png) no-repeat; background-size:cover;}
+    #support .qa-modular3 .cont{flex-wrap:wrap;}
+    #support .qa-modular3 .cont_left{width:100%;}
+    #support .qa-modular3 .cont_right{width:100%;}
+    .detail-bottom{padding:.5rem 0;}
+    #support .notice .cont_right_bottom>li a.cont_txt{flex-wrap:wrap;}
+    #support .notice .cont_right_bottom>li .p1{width:100%; font-size:16px; margin-bottom:.1rem;}
+    #support .notice .cont_right_bottom>li .p3{width:100%;}
+/*客服支持-交易公告 end*/
+/*关于我们-公司介绍 start*/
+    #about .banner{height:4.6rem; background:url(../img/m/about/banner.png) no-repeat; background-size:cover;}
+    #about  .modular1 .col-sm-12{padding:0 15px;}
+    #about .modular1{padding:0 0 .8rem;}
+    #about .modular1 .p1{font-size:.32rem; margin-bottom:.1rem; color:#323232;}
+/*关于我们-公司介绍 end*/
+/*关于我们-为什么选择FXBV start*/
+    #about .why_banner{height:4.6rem; background:url(../img/m/about/why-banner.png) no-repeat; background-size:cover;}
+    .why_modular1{padding-bottom:1rem;}
+    .why_modular1 .cont .p1{font-size:.48rem; font-weight:normal;}
+    .why_modular1 .cont .why_pic{width:100%; padding:.4rem 0;}
+    .why_modular1 .cont2 .p2{text-align:center;}
+    .why_modular1 .cont2 li{width:100%; padding-top:.7rem; justify-content:flex-start;}
+    .why_modular1 .cont2 li>img{width:1rem;}
+    .why_modular1 .cont2 li .right{padding-left:.4rem;}
+    .why_modular1 .cont2 li .right .p3{font-size:18px; margin-bottom:.1rem;}
+    .why_modular1 .cont2 li .right .p4{font-size:14px;}
+/*关于我们-为什么选择FXBV end*/
+/*关于我们-监管 start*/
+    #why .banner{height:4.6rem; background:url(../img/m/about/globle.png) no-repeat; background-size:cover;}
+    #why .modular1 .right{width:100%; padding:0 15px;}
+    #why .modular1 .right .title{font-size:.48rem; font-weight:normal;}
+    #why .modular1 .right .pic1{width:100%;}
+    #why .modular1 .right .cont2 .p1{margin-bottom:.3rem;}
+    #why .modular1 .right .cont3 .p4{margin-bottom:.5rem;}
+/*关于我们-监管 end*/
+/*关于我们-资金安全 start*/
+/*关于我们-资金安全 end*/
+/*关于我们-全球客户服务 start*/
+    #why .modular1 .right .cont4 ul{padding-bottom:.5rem;}
+    #why .modular1 .right .cont4 ul>li{width:100%; padding-top:.4rem;}
+    #why .modular1 .right .cont4 ul>li>img{margin-right:.4rem; width:1rem;}
+/*关于我们-全球客户服务 end*/
+/*合作伙伴-机构合作 start*/
+    #partnerships .broker-banner .title{padding-top:1.5rem;}
+    #partnerships .broker-banner{height:4.6rem; background:url(../img/m/ship/broker_banner.png) no-repeat; background-size:cover;}
+    .broker_modular1 .coo-cont{flex-wrap:wrap; border:0 none; padding:.5rem 0;}
+    .broker_modular1 .cont_1{padding-bottom:0; padding:.5rem 0; background-color:#f6f6f6; margin-bottom:.5rem;}
+    .broker_modular1 .coo-cont>div{width:100%; border:0 none; padding:0 .3rem; margin-bottom:.8rem;}
+    .broker_modular1 .coo-cont>div>img{width:1rem;}
+    .broker_modular1 .coo-cont .coo-p1{font-size:.32rem; padding:.4rem 0 .1rem; font-weight:bold;}
+    .broker_modular1 .coo-cont .coo-p2{font-size:.28rem;}
+    .broker_modular1 .cont1{padding-bottom:.5rem;}
+    .broker_modular1 .cont1 .title{font-size:.48rem; font-weight:normal;}
+    .broker_modular1 .cont1 .p1{width:100%;}
+    .broker_modular1 .cont1 .p2{text-align:center; font-weight:normal; margin-bottom:.3rem;}
+    .broker_modular1 .cont1 ul{flex-wrap:wrap; height:auto;}
+    .broker_modular1 .cont1 li{width:100%;}
+    .broker_modular1 .cont1 li .list_2 select{width:90%; border:0 none; border-radius:.1rem; outline:0 none;}
+    .broker_modular1 .cont1 li .list_3{background-color:#fff; border-radius:.1rem; width:90%; text-indent:.1rem;}
+    .broker_modular1 .cont1 li .list_4{background-color:#fff; border-radius:.1rem; width:90%;text-indent:.1rem;}
+    .broker_modular1 .cont1 .p3{text-align:center;}
+    .broker_modular1 .cont2 .li_1{width:100%;box-shadow:none; display:flex; align-items:center; padding-left:.6rem; height:auto;}
+    .broker_modular1 .cont2 .li_1>img{width:1rem; height:auto; margin-right:.4rem;}
+    .broker_modular1 .cont2 .broker_btn{margin:.5rem auto;}
+    #partnerships .liquidity-banner{height:4.6rem; background:url(../img/m/ship/liquidity_banner.png) no-repeat; background-size:cover;}
+    #partnerships .broker_modular1 .liquidity_cont{flex-wrap:wrap; padding-bottom:.5rem;}
+    .liquidity_modular1 .liquidity_cont .list{width:100%; margin-bottom:.5rem;}
+    .liquidity_modular1 .liquidity_cont .list>img{width:1rem;}
+    .liquidity_modular1 .liquidity_cont2>div{align-items:flex-start;}
+    .liquidity_modular1 .liquidity_cont2>div>img{width:.5rem; padding-top:.06rem; margin-right:.14rem;}
+    .liquidity_modular1 .liquidity_cont2 .right .p2{font-size:14px;}
+    .liquidity_modular1 .liquidity_cont2{padding-bottom:0;}
+/*合作伙伴-机构合作 end*/
+/*市场动态-财经日历 start*/
+    #news .banner{height:4.6rem; background:url(../img/m/news/news-banner.png) no-repeat; background-size:cover;}
+    .calendar{padding-bottom:1rem;}
+    .calendar .p1{font-size:.48rem; font-weight:normal;}
+    .calendar .cont_center .ul_1{flex-wrap:wrap; margin-bottom:.1rem;}
+    .calendar .cont_center .ul_1>li{width:100%; margin-bottom:.1rem;}
+    .calendar .cont_center .ul_1>li.last{justify-content:flex-start; align-items:center; height:.8rem;}
+    .calendar .cont_center .ul_1>li select{height:1rem;}
+    .bd_w{margin-bottom:.3rem;}
+    .calendar .cont_bottom2 .ul_1{margin-bottom:.3rem;}
+/*市场动态-财经日历 end*/
+/*市场动态-实时新闻 start*/
+    #news .news_modular1 .cont2{margin:.4rem 0;}
+    #news .news_modular1 .cont2 .p1{font-size:20px;}
+    #news .news_modular1 .cont3{padding-bottom:.6rem;}
+    #news .news_modular1 .cont3>a{margin-bottom:.4rem;}
+    #news .news_modular1 .cont3 .right{padding:.2rem .2rem .7rem;}
+    #news .news_modular1 .cont3 .right .p1{font-size:16px; margin-bottom:.1rem; color:#333;}
+    #news .news_modular1 .cont3 .right .p2{font-size:14px; display:none;}
+    #news .news_modular1 .cont3 .right .p3{color:#999;bottom:10px;}
+/*市场动态-实时新闻 end*/
+/*市场动态-市场评论 start*/
+    #news .market_modular1 .right .p1{font-size:16px;}
+    #news .market_modular1 .right .p3{display:none;}
+    #news .market_modular1 .cont_list .right{padding:.3rem .3rem .2rem;}
+    #news .market_modular1 .cont_list{margin-bottom:.36rem;}
+    #news .market_modular1 .cont1{padding-bottom:.8rem;}
+    #news .market_modular1 .btn_more{padding-top:.1rem;}
+/*市场动态-市场评论 end*/
+/*市场动态-技术分析 start*/
+    #news .market_modular1 .cont_bottom{font-size:.48rem; margin-bottom:.5rem; padding-top:0;}
+    #news .market_modular1 .cont_list>img{width:30%}
+    #news .market_modular1 .right .p4{bottom:10px;}
+/*市场动态-技术分析 end*/

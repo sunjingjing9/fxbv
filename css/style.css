@@ -1,0 +1,246 @@
+﻿
+*, ::after, ::before {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  /*outline:medium;*/
+  padding: 0;
+  margin: 0;
+  outline: 0;
+	list-style:none;
+	font-weight:normal;
+	text-decoration:none;
+}
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;/*-文字无法被选中-*/
+  -webkit-font-smoothing: antialiased;/*-字体抗锯齿渲染-*/
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;/*-允许手势水平/垂直平移或持续的缩放-*/
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;/*-文本大小不会根据设备尺寸进行调整-*/
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+	line-height: 1.2;
+	color: #000;
+  font-family: 'youai','Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,
+  						'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+
+html{font-size:16px}
+.bd_w{
+	background-color: #fff;
+	box-shadow: 0 20px 32px -1px #F3F4F4;
+	margin-bottom: 50px;
+}
+.bd_w>ul{display:flex; justify-content:center;}
+/*-日历样式-*/
+.flex_i{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items:center;
+	align-items:center;
+}
+.flex_auto{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.calendar_header{
+}
+.switch_month{
+	border: 0;
+	background-color: transparent;
+	position:relative;
+	left:0;
+	top:50px;
+}
+.switch_month:active{
+	background-color: #eee;
+}
+.calendar_info{
+	color: #B6BBBF;
+	font-size:14px;
+	padding:20px 0;
+}
+.calendar_tr{
+	font-size: 16px;
+}
+.calendar_tr:after{
+	content:"";
+	display: block;
+	clear: both;
+	padding: 0 1%;
+}
+.calendar_tr > li{
+	float: left;
+	width: 12%;
+	text-align: center;
+	padding: 0.5rem 0;
+	position: relative;
+	color: #B6BBBF;
+	font-size:12px;
+}
+.calendar_week{
+}
+.calendar_week > li{
+	padding: 1rem 0;
+}
+.notnowmonth{
+	color: #aaa;
+}
+.calendar_day_bar{
+}
+.calendar_day_i{
+	display: inline-block;
+}
+.calendar_day_act .calendar_day_i{
+	color: #000;
+	font-weight:bold;
+}
+.calendar_today{
+	position: relative;
+}
+.today_i{
+	display: block;
+	position: absolute;
+	left: 50%;
+	top:48px;
+	width:40px;
+	height: 1px;
+	background-color: #333;
+	color: #fff;
+	margin-left:-20px;
+}
+.br_b_ccc{
+	border-bottom: solid 1px #ccc;
+}
+.ric_calendar .calendar_header{
+	padding: 0 1.5rem;
+}
+.ric_calendar .calendar_day_bar > li{
+	padding: 0;
+}
+.ric_calendar .today_i{
+	display: none;
+}
+.ric_calendar .notnowmonth{
+	color: #eee;
+}
+.ric_calendar .calendar_day_bar{
+	padding-bottom: 1rem;
+}
+.calendarday_bz1:after,.calendarday_bz2:after{
+	content:"";
+	display: block;
+	border-radius: 50%;
+	background-color: #1DA8FC;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.calendarday_bz2:after{
+	background-color: #ec612a;
+}
+.jcalendar_week .calendar_week > li,.jcalendar_week .calendar_tr > li{
+	padding: 0;
+}
+.jcalendar_week .calendar_header{
+
+}
+.jcalendar_week .calendar_day_bar{
+
+}
+.jcalendar_week .calendar_week{
+	padding-bottom: 14px;
+	font-size: 16px;
+	color: #B6BBBF;
+}
+.jc_week_act .calendar_day_i{
+	background-image: url(../img/day_bd.png);
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*--日历样式结束--*/
+/*-弹框-*/
+.pop_bd{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.pop_con{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	max-width: 500px;
+	width: 75%;
+	background-color: #fff;
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+.pop_close{
+	position:absolute;
+	right:0.5rem;
+	top:0.5rem;
+	display: block;
+	width: 1.5rem;
+	text-align: center;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	color: #666666;
+	font-family: -webkit-body;
+	font-family: body;
+	border-radius: 0.25rem;
+}
+.pop_close:active{
+	background-color: #eee;
+}
+.control{
+	text-align: center;
+	padding: 1rem 0;
+}
+.control > button{
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.25rem;
+	border: solid 1px #aaa;
+	background-color: transparent;
+}
+.control_val{
+	height: 2rem;
+	border: 0;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.setjc_st,.setjc_btn{
+	height: 2.25rem;
+	padding: 0 1rem;
+	margin: 0.5rem 0;
+	border-radius: 0.25rem;
+}
+.setjc_btn{
+	background-color: #1DA8FC;
+	color: #fff;
+	border: 0;
+}
+.nowweek_btn{
+	margin-right:0.5rem;
+	flex: 0.5;
+}

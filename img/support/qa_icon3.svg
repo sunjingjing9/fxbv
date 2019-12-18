@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>关于交易</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="常见问题" transform="translate(-379.000000, -791.000000)" stroke="#333333">
+            <g id="关于交易" transform="translate(379.000000, 791.000000)">
+                <path d="M2,0 L2,31" id="Shape" stroke-linejoin="round"></path>
+                <path d="M0,28 L31,28" id="Shape" stroke-linejoin="round"></path>
+                <path d="M5,22 L8,19" id="Shape"></path>
+                <g id="Group" transform="translate(5.000000, 3.000000)">
+                    <polyline id="Shape" points="6.64 12.48 9.06 10.06 15.84 10.06 25.05 0.86"></polyline>
+                    <polyline id="Shape" points="0.34 1.83 6.64 1.83 9.55 4.73 12.45 1.83 14.88 1.83 18.27 5.22"></polyline>
+                    <path d="M20.69,7.64 L25.05,12" id="Shape"></path>
+                    <polyline id="Shape" points="22.62 12 25.05 12 25.05 9.58"></polyline>
+                    <polyline id="Shape" points="25.05 3.28 25.05 0.86 22.62 0.86"></polyline>
+                    <g transform="translate(0.000000, 9.000000)" id="Shape">
+                        <polyline points="23.11 10.75 25.05 8.81 23.11 6.88"></polyline>
+                        <polyline points="25.05 8.81 16.81 8.81 13.91 5.91 10.03 9.78 0.83 0.58"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>关于外汇</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="常见问题" transform="translate(-379.000000, -650.000000)" stroke="#FFFFFF">
+            <g id="关于外汇" transform="translate(380.000000, 651.000000)">
+                <path d="M10,20 C4.47834646,20 0,15.5216535 0,10 C0,4.47834646 4.47834646,0 10,0 C15.5216535,0 20,4.47834646 20,10" id="Shape"></path>
+                <path d="M22,17.25 C22,16.0010593 20.8771186,15 19.5,15 C18.1228814,15 17,16.0105932 17,17.25 C17,18.4894068 19.5,19.5 19.5,19.5 C19.5,19.5 22,20.5105932 22,21.75 C22,22.9989407 20.8771186,24 19.5,24 C18.1228814,24 17,22.9894068 17,21.75" id="Shape"></path>
+                <path d="M19,16 L19,14" id="Shape"></path>
+                <path d="M19,25 L19,27" id="Shape"></path>
+                <circle id="Oval" cx="19" cy="20" r="10"></circle>
+                <path d="M20,3 L24.1494436,3 C25.1701113,3 26,3.82988871 26,4.85055644 L26,9" id="Shape"></path>
+                <path d="M8,27 L3.85055644,27 C2.82988871,27 2,26.1701113 2,25.1494436 L2,21" id="Shape"></path>
+                <path d="M10.8051512,15 C10.8051512,15 10.1298992,15 9.74692049,15 C7.12653975,15 5,12.9840764 5,10.5 C5,8.01592357 7.12653975,6 9.74692049,6 C11.6114222,6 13.2239642,7.02229299 14,8.50318471" id="Shape"></path>
+                <path d="M3,9 L9,9" id="Shape"></path>
+                <path d="M3,12 L9,12" id="Shape"></path>
+                <polyline id="Shape" points="23 6 20 3.5 23 1"></polyline>
+                <polyline id="Shape" points="6.012 25 9 27.5 6 30"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
