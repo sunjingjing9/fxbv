@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hant">
+    <head>
+        <title>合约细则</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta http-equiv="Cache-Control" content="no-siteapp" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/bitbug_favicon.ico" />
+        <script>
+            window.onload = function(){
+                    getRem(750,100)
+                };
+                window.onresize = function(){
+                    getRem(750,100)
+                };
+                function getRem(pwidth,prem){
+                    var html = document.getElementsByTagName("html")[0];
+                    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+                    html.style.fontSize = oWidth/pwidth*prem + "px";
+                }
+        </script>
+    </head>
+    <body>
+        <div class="wrap" id="trade">
+            <!-- 导航 start -->
+            <div id="nav">
+            </div>
+            <!-- 导航 end -->
+            <!-- banner start -->
+            <div class="banner details-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="title">合约细则</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner end -->
+            <div class="bread">
+              <div class="container">
+                  <a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="javascript:;">合作伙伴</a>&nbsp;&gt;&nbsp;<a href="contract-details.html" class="active">合约细则</a>
+              </div>
+            </div>
+            <div class="datails_modular1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="title">交易产品列表</p>
+                    <div class="cont1">
+                      <div class="cont">
+                        <p class="next-title">
+                          <span>市场</span>
+                          <span>最小杠杆</span>
+                          <span>最大杠杆</span>
+                          <span>最小交易手数</span>
+                          <span>最大交易手数</span>
+                          <span>标准合约量</span>
+                          <span>挂单距离</span>
+                          <span>交易币种</span>
+                          <span>报价时间</span>
+                          <span>交易时间</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURUSD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>USDJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>USD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPUSD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>AUDUSD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>AUD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>NZDUSD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>NZD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>USDCHF</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>USD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>USDAUD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>USD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURAUD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURCAD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURCHF</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURGBP</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURNZD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>EURJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>EUR</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPAUD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPCAD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPCHF</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPNZD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>GBPJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>GBP</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>AUDNZD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>AUD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>AUDCAD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>AUD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>AUDCHF</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>AUD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>AUDJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>AUD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>CADCHF</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>CAD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>CADJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>CAD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>CHFJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>CHF</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>CHFJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>CHF</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>NZDCAD</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>NZD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>NZDJPY</span>
+                          <span>50</span>
+                          <span>500</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>50</span>
+                          <span>NZD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>USDHKD</span>
+                          <span>5</span>
+                          <span>50</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>1,000</span>
+                          <span>USD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>USDCNH</span>
+                          <span>5</span>
+                          <span>50</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100,000</span>
+                          <span>1,000</span>
+                          <span>USD</span>
+                          <span>00:00-23:55</span>
+                          <span>00:05-23:55</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>XAUUSD</span>
+                          <span>25</span>
+                          <span>250</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>100</span>
+                          <span>100</span>
+                          <span>USD</span>
+                          <span>01:00-24:00</span>
+                          <span>01:00-24:00</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>XAGUSD</span>
+                          <span>25</span>
+                          <span>250</span>
+                          <span>0.01</span>
+                          <span>50</span>
+                          <span>5,000</span>
+                          <span>100</span>
+                          <span>USD</span>
+                          <span>01:00-24:00</span>
+                          <span>01:00-24:00</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>XTIUSD</span>
+                          <span>25</span>
+                          <span>250</span>
+                          <span>0.1</span>
+                          <span>50</span>
+                          <span>1,000</span>
+                          <span>100</span>
+                          <span>USD</span>
+                          <span>01:00-24:00</span>
+                          <span>01:00-24:00</span>
+                        </p>
+                        <p class="next-title cont_num">
+                          <span>XBRUSD</span>
+                          <span>25</span>
+                          <span>250</span>
+                          <span>0.1</span>
+                          <span>50</span>
+                          <span>1,000</span>
+                          <span>100</span>
+                          <span>USD</span>
+                          <span>03:00-24:00</span>
+                          <span>03:00-24:00</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="com-modular2">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="p1">开始与FXBV交易<br>体验我们优越的交易!</p>
+                  <div class="btn">
+                    <a href="#" class="btna3">开通真实账户</a>
+                    <a href="#" class="btna3 btna4">开通模拟账户</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="com-modular3">
+            <div class="container">
+              <p class="p1">快速联系我们</p>
+              <div class="table">
+                <div class="user">
+                  <p>
+                    <img src="img/m/contact_icon1.png" alt="" class="visible-xs visible-sm">姓名：
+                  </p>
+                  <input type="text">
+                </div>
+                <div class="user">
+                  <p>
+                    <img src="img/m/contact_icon2.png" alt="" class="visible-xs visible-sm">邮箱：
+                  </p>
+                  <input type="text">
+                </div>
+                <div class="user">
+                  <p>
+                    <img src="img/m/contact_icon3.png" alt="" class="visible-xs visible-sm">电话：
+                  </p>
+                  <input type="text">
+                </div>
+                <div class="user last">
+                  <p>
+                    <img src="img/m/contact_icon4.png" alt="" class="visible-xs visible-sm">留言：
+                  </p>
+                  <textarea name="" id="" cols="30" rows="6"></textarea>
+                </div>
+                <div class="contact_btn"><a href="#">提交</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--公用底部-->
+        <div id="footer">
+        </div>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+    </body>
+</html>
