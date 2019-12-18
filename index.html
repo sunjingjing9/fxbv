@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hant">
+    <head>
+        <title>首页</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta http-equiv="Cache-Control" content="no-siteapp" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/bitbug_favicon.ico" />
+        <script>
+            window.onload = function(){
+                    getRem(750,100)
+                };
+                window.onresize = function(){
+                    getRem(750,100)
+                };
+                function getRem(pwidth,prem){
+                    var html = document.getElementsByTagName("html")[0];
+                    var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+                    html.style.fontSize = oWidth/pwidth*prem + "px";
+                }
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <!-- 导航 start -->
+            <div id="nav">
+                <!--<nav>-->
+                    <!--<div class="nav_top">-->
+                        <!--<div class="container">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-sm-12">-->
+                                    <!--<a href="index.html">-->
+                                        <!--<img src="img/logo.svg" alt="" id="logo">-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="nav_bottom">-->
+                        <!--<div class="container">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-sm-12">-->
+                                    <!--<div class="nav_cont">-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>交易产品</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">交易产品</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">交易产品</a>-->
+                                                            <!--<a href="forex.html">外汇</a>-->
+                                                            <!--<a href="precious-metal.html">黄金&白银</a>-->
+                                                            <!--<a href="commodities.html">大宗商品</a>-->
+                                                        <!--</li>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">账户类型</a>-->
+                                                            <!--<a href="std.html">STD标准账户类型</a>-->
+                                                        <!--</li>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">交易规则</a>-->
+                                                            <!--<a href="leverage&margin.html">杠杆和保证金</a>-->
+                                                            <!--<a href="contract-details.html">合约细则</a>-->
+                                                            <!--<a href="transaction-time.html">交易时间</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>交易平台和工具</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">交易平台和工具</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">交易平台</a>-->
+                                                            <!--<a href="platforms.html">MT4 MetaTrader 4</a>-->
+                                                        <!--</li>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">交易工具</a>-->
+                                                            <!--<a href="calculator.html">交易计算机</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>市场动态</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">市场动态</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">市场动态</a>-->
+                                                            <!--<a href="calendar.html">全球财经日历</a>-->
+                                                            <!--<a href="news.html">实时新闻</a>-->
+                                                            <!--<a href="market-review.html">市场评论</a>-->
+                                                            <!--<a href="technical-analysis.html">技术分析</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>合作伙伴</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">合作伙伴</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">合作伙伴</a>-->
+                                                            <!--<a href="introducing-broker.html">介绍经纪商</a>-->
+                                                            <!--<a href="institutional-cooperation.html">机构合作</a>-->
+                                                            <!--<a href="liquidity-supplier.html">流动性供应商</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>客服支持</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">客户支持</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">客户支持</a>-->
+                                                            <!--<a href="contact-us.html">联系我们</a>-->
+                                                            <!--<a href="q&a.html">常见问题</a>-->
+                                                            <!--<a href="glossary.html">外汇词汇表</a>-->
+                                                            <!--<a href="notices.html">最新公告</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="nav_list">-->
+                                            <!--<p>关于我们</p>-->
+                                            <!--<div class="dropdown">-->
+                                                <!--<div class="line"></div>-->
+                                                <!--<div class="drop_left">-->
+                                                    <!--<p class="title">关于我们</p>-->
+                                                    <!--<div class="drop_btn">-->
+                                                        <!--<a href="#" class="btn1">开通真实账户</a>-->
+                                                        <!--<a href="#" class="btn2">开通模拟账户</a>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="drop_right">-->
+                                                    <!--<ul>-->
+                                                        <!--<li>-->
+                                                            <!--<a href="javascript:;" class="next_title">关于我们</a>-->
+                                                            <!--<a href="why-fxbv.html">为什么选择FXBV</a>-->
+                                                            <!--<a href="company.html">公司介绍</a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</nav>-->
+            </div>
+            <!-- 导航 end -->
+            <!-- banner start -->
+            <div id="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="cont">
+                                <div class="left">
+                                    <p class="p1 hidden-xs hidden-sm">一个账户，连接全球市场</p>
+                                    <p class="p1 visible-xs visible-sm">一个账户<br>连接全球市场</p>
+                                    <p class="p2">更优质的交易信号</p>
+                                    <p class="p2">更低成本</p>
+                                    <a href="#" class="btna">立即开始交易</a>
+                                </div>
+                                <div class="right">
+                                    <img src="img/m/in/banner_pic.png" alt="" class="right_pic1 visible-xs visible-sm">
+                                    <img src="img/banner_icon.png" alt="" class="right_pic2">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner end -->
+            <div class="modular1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="table">
+                                <div class="table_top">
+                                    <p class="active">外汇</p>
+                                    <p>原油</p>
+                                    <p>贵金属</p>
+                                    <p>指数</p>
+                                </div>
+                                <div class="table_top table_nav">
+                                    <p><span>交易品种</span><span>点差</span></p>
+                                    <p><span>当前价格&nbsp;买价/卖价</span><span>&nbsp;</span></p>
+                                    <p><span>变化</span><span>&nbsp;</span></p>
+                                    <p></p>
+                                </div>
+                                <div class="table_cont">
+                                    <div class="table_cont1">
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="green"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                        <div class="table_top table_nav">
+                                            <p><span>AUDUSD</span><span>22</span></p>
+                                            <p><span>0.67764 / 0.67786</span><span>&nbsp;</span></p>
+                                            <p class="red"><span>0.387%</span><span>&nbsp;</span></p>
+                                            <p class="indice"><span class="sell">卖出</span ><span class="buy">买入</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="btna2"><span>显示所有产品</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="title">为什么选择FXBV</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon1.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">资金安全</p>
+                                <p class="p2 hidden-xs hidden-sm">客户资金完全隔离 第三方存管</p>
+                                <div class="left visible-xs visible-sm"><img src="img/why_icon1.svg" alt=""></div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">资金安全</p>
+                                    <p class="p2">客户资金完全隔离 第三方存管</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon2.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">STP／ECN模式</p>
+                                <p class="p2 hidden-xs hidden-sm">无缝对接世界顶尖流动性供应商和国际大型投资银行，订单抛向国际市场，交易更公平透明</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon2.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">STP／ECN模式</p>
+                                    <p class="p2">无缝对接世界顶尖流动性供应商和国际大型投资银行，订单抛向国际市场，交易更公平透明</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon3.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">产品多样</p>
+                                <p class="p2 hidden-xs hidden-sm">多种产品选择，多层次的账户类型，满足客户的多种交易需求</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon3.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">产品多样</p>
+                                    <p class="p2">多种产品选择，多层次的账户类型，满足客户的多种交易需求</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon4.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">系统支持</p>
+                                <p class="p2 hidden-xs hidden-sm"> MT4交易平台，优质的交易工具</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon4.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">系统支持</p>
+                                    <p class="p2"> MT4交易平台，优质的交易工具</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon5.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">闪电执行</p>
+                                <p class="p2 hidden-xs hidden-sm">快速订单执行，极速出入金</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon5.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">闪电执行</p>
+                                    <p class="p2">快速订单执行，极速出入金</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon6.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">杠杆灵活</p>
+                                <p class="p2 hidden-xs hidden-sm">高达1:500倍杠杆，交易随您所需</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon6.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">杠杆灵活</p>
+                                    <p class="p2">高达1:500倍杠杆，交易随您所需</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon7.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">IB支持</p>
+                                <p class="p2 hidden-xs hidden-sm">个性化扶持，量身定制营销方案，系统的投资者教育培训</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon7.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">IB支持</p>
+                                    <p class="p2">个性化扶持，量身定制营销方案，系统的投资者教育培训</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon8.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">超低成本</p>
+                                <p class="p2 hidden-xs hidden-sm">极具竞争力的点差，深度银行间流动性</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon8.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">超低成本</p>
+                                    <p class="p2">极具竞争力的点差，深度银行间流动性</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cont">
+                                <img src="img/why_icon9.svg" alt="" class="hidden-xs hidden-sm">
+                                <p class="p1 hidden-xs hidden-sm">24/5专业客服 </p>
+                                <p class="p2 hidden-xs hidden-sm">为全球客户提供多语言客服支持</p>
+                                <div class="left visible-xs visible-sm">
+                                    <img src="img/why_icon9.svg" alt="">
+                                </div>
+                                <div class="right visible-xs visible-sm">
+                                    <p class="p1">24/5专业客服 </p>
+                                    <p class="p2">为全球客户提供多语言客服支持</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 cont">
+                            <img src="img/pic1.png" alt="">
+                            <div class="right">
+                                <p class="p1">FXBV<br>致力于提供更好的交易体验</p>
+                                <p class="p2">让客户真正体验投资的乐趣</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular3 modular4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 cont">
+                            <div class="right">
+                                <p class="p1">便捷开户 轻松交易</p>
+                                <p class="p2">在手机和电脑上随时管理您的账户</p>
+                                <img src="img/pic2.png" alt="" class="visible-xs visible-sm" >
+                                <p class="p3">第一步：创建真实账户</p>
+                                <p class="p3">第二步：下载MT4</p>
+                                <p class="p3">第三步：入金成功 开始投资</p>
+                                <div class="btna">立即体验</div>
+                            </div>
+                            <img src="img/pic2.png" alt="" class="hidden-xs hidden-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular3 modular4  modular5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 cont">
+                            <div class="right">
+                                <p class="p1">MetaTrader 4</p>
+                                <p class="p2">利用我们先进的工具和功能，管理您的账户：</p>
+                                <p class="p3"><span>+</span>支持EA</p>
+                                <p class="p3"><span>+</span>外汇、贵金属和差价合约（CFDs）</p>
+                                <p class="p3"><span>+</span>MT4平台支持30种语言</p>
+                                <p class="p3"><span>+</span>终极图表功能</p>
+                                <p class="p3"><span>+</span>简易划线分析</p>
+                                <div class="btna2"><span>MT4下载</span></div>
+                            </div>
+                            <img src="img/pic3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="title">支持多种登陆方式</p>
+                            <p class="p1">在电脑、手机、平板之间灵活切换，满足不同客户交易需求</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 cont">
+                            <a href="platforms.html" class="cont_list">
+                                <div class="icon"></div>
+                                <p class="icon_p1">Android</p>
+                            </a>
+                            <a href="platforms.html" class="cont_list cont_list1">
+                                <div class="icon"></div>
+                                <p class="icon_p1">iOS</p>
+                            </a>
+                            <a href="platforms.html" class="cont_list cont_list1 cont_list2">
+                                <div class="icon"></div>
+                                <p class="icon_p1">Windows</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modular7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="title">最新公告</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                           <div class="cont">
+                                <a href="#" class="green">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                                <a href="#">
+                                    <span class="left">节假日交易时间安排</span>
+                                    <span>【2019-01-14】</span>
+                                </a>
+                           </div>
+                            <div class="btna2"><span>查看最新公告</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--公用底部-->
+        <div id="footer">
+        </div>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+    </body>
+</html>
